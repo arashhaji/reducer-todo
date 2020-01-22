@@ -4,12 +4,12 @@ export const initialState = {
 		{
 			item: 'Reduce',
 			completed: false,
-			id: Math.floor((Math.random() * 100) + 1)
+			
 		},
 		{
 			item: 'Redux',
 			completed: false,
-			id: Math.floor((Math.random() * 100) + 1)
+			
 		},
 	]
 };
@@ -21,7 +21,7 @@ export const reducer = (state, action) => {
             const newItem = {
                 item: action.payload,
                 completed: false,
-                id: Math.floor((Math.random() * 100) + 1)
+               
             }
             return {
                 ...state,
