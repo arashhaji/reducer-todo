@@ -1,0 +1,15 @@
+.Task.completed{
+  text-decoration: line-through crimson;
+}
+.App {
+text-align: center;
+font-size: 1.5rem;
+color: dodgerblue;
+}
+.Button{
+  margin: 1%;
+  border-radius: 5%;
+  font-size: 1rem;
+  color: crimson;
+  
+}
